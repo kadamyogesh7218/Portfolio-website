@@ -1,0 +1,270 @@
+body{
+    margin:0px;
+}
+ .section{
+    height:90vh;
+}
+
+
+/*-----body-header--------------*/
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("images/body-header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*--------------horizontal-lists-------*/
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin:0px;
+
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 12px 12px 0px;
+    font-size: 1.3rem;
+    margin-top:4px;
+    
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.horizontal-list li a:hover{
+    color:lightgrey;
+    border-bottom:1px solid white;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* --------------name------------------- */
+#name-social-container{
+    margin-left:38%;
+    margin-top:15vh;
+}
+
+#name{
+    font-size:1.7rem;
+    color:white;
+    /* margin-bottom: 0.5rem; */
+}
+
+/*----------------social--------------------*/
+
+#social{
+    margin-left:4%;
+    margin-top:-1.2%;
+}
+
+#social ul{
+    list-style-type:none;
+
+}
+
+#social ul li{
+    display: inline-block;
+    margin:0px 20px 20px 0px;
+} 
+
+
+#social img{
+    height:2rem;
+    border-radius:10%;
+}
+
+#social img:hover{
+    box-shadow: 0px 0px 6px 6px white;
+}
+
+/*-----------------about---------------*/
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 17rem;
+    width:17rem;
+    margin:auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    /* width: 100%; */
+    height:100%;
+    border-radius: 50%;
+    box-shadow:0px 0px 6px 3px white;
+
+}
+#about p{
+    color:grey;
+    text-align: justify;
+    margin:2% 10% 0% 10%;
+    font-size: 1.5rem;
+}
+
+.highlight{
+    color:#2857a4;
+
+}
+
+
+/*------------skills---------------*/
+
+#skills{
+    background-color: rgba(128, 128, 128, 0.225);
+    margin-top:10vh;
+    height:75%;
+}
+
+#skills-header{
+    display: flex;
+     justify-content: center;
+    /* padding:2%; */
+}
+#skill-logo i{
+    font-size: 2.5rem;
+    color:#2857a4
+}
+#skill-heading h1{
+    display:inline-block;
+    font-size: 2.5rem;
+    margin-left:40px;
+    color:#2857a4;
+}
+#skills-display{
+    display:flex;
+    justify-content: space-between;
+    margin:0 15% 0 15%;
+    flex-wrap: wrap;
+}
+#outer{
+    width:20%;
+    height:10%;
+    background-color: rgb(177, 171, 171);
+    margin:5%;
+    border-radius: 1rem;
+    /* border-top-left-radius: 50%; */
+}
+.inner{
+    height:100%;
+    font-size: 1.1rem;
+    padding:0.4rem;
+    /* text-align: center; */
+    border-radius: 1rem 0 0 1rem;
+    color:white;
+}
+
+#java-inner{
+    width:82%;
+    background-color: rgb(232, 165, 41);
+}
+#sql-inner{
+    width:75%;
+    background-color: rgb(49, 36, 219);
+
+}
+#dbms-inner{
+    width:80%;
+    background-color: rgba(44, 206, 85, 0.658);
+}
+#css-inner{
+    width:60%;
+    background-color: rgb(205, 17, 26);
+}
+#html-inner{
+    width:70%;
+    background-color: rgb(232, 121, 107);
+}
+#oops-inner{
+    width:80%;
+    background-color: rgb(229, 60, 192);
+}
+
+
+
+
+
+/*---------------contact-------------*/
+
+#contact{
+background-color:rgb(40, 87, 164);
+color:white;
+height:90vh;
+}
+#contact-header{
+padding:3%;
+padding-top:2%;
+display:flex;
+font-size:1.8rem;
+justify-content:center;
+
+}
+#form-address-cont {
+height:50%;
+display:flex;
+justify-content:space-around;
+width:auto;
+/*     height:0.5vh; */
+background-color:rgb(40, 87, 164);
+}
+#form-cont{
+margin:0 10%;
+width:50%;
+
+}
+form input{
+font-size:1.2rem;
+width:100%;
+border:none;
+background-color:rgb(40, 87, 164);
+border-bottom:2px solid white;
+
+}
+
+#message{
+font-size:1.2rem;
+width:100%;
+border:none;
+background-color:rgb(40, 87, 164);
+border-bottom:2px solid white;
+}
+
+
+form button{
+background-color:rgb(40, 87, 164);
+border:2px solid white;
+color:white;
+margin-left:30%;
+}
+#address-social-cont{
+background-color:rgb(40, 87, 164);
+width:50%;
+color:white;
+}
+#address-social-cont {
+
+margin-right:2%;
+
+
+}
+#address-social-cont h2{
+margin-top:0;
+margin-bottom:5%;
+}
+.my-details{
+line-height:1.5;
+}
+
+
+
